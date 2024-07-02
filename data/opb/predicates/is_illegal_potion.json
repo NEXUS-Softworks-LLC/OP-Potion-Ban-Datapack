@@ -1,0 +1,34 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Item:{tag:{Potion:\"minecraft:harming\"}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Item:{tag:{Potion:\"minecraft:strong_harming\"}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Item:{tag:{Potion:\"minecraft:healing\"}}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{Item:{tag:{Potion:\"minecraft:strong_healing\"}}}"
+        }
+      }
+    ]
+  }
+  
